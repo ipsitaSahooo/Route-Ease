@@ -19,6 +19,7 @@ Usage Scenario: Suppose a person in a city wishes to travel from one location to
 efficiently. By inputting their source and destination locations, along with their preference for either the shortest distance or time, the person can obtain detailed information about the optimal route, 
 including interchange stations and expected travel duration. This helps the commuter make informed decisions and navigate the metro network effectively.
 
-Prerequisites
+Prerequisites:
 1)java
 2)database(SQL)
+3)JDBC

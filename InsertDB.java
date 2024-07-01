@@ -7,7 +7,7 @@ public class InsertDB {
     public static void main(String[] args) throws Exception {
         Scanner sc=new Scanner(System.in);
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bhubaneswar_Map","root","Rahul@2808");
+		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bhubaneswar_Map","root","Ipsita@2808");
 		System.out.println("Now enter vertices to add to the table VERTICES of database bhubaneswarMap");
         System.out.println("Do you want to add vertices?");
         String flagInput = sc.nextLine().toLowerCase(); // Read input as a string and convert to lowercase
